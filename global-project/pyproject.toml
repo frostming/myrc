@@ -1,0 +1,8 @@
+[tool.pdm.dependencies]
+pipx = "<1.0.0,>=0.15.5.1"
+ipython = "<8.0.0,>=7.18.1"
+naipyext = {extras = ["be"], version = "<1.0.0,>=0.5.3"}
+virtualenv = "<21.0.0,>=20.0.35"
+pycomplete = "<1.0.0,>=0.2.0"
+
+[tool.pdm.dev-dependencies]
