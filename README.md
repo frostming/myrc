@@ -16,3 +16,4 @@ My personal profiles for Win and Mac
         - `iredis`
 - [pipx.list](/pipx.list): The list of installed virtualenvs managed by [pipx](https://pypi.org/p/pipx)
 - [global-project](/global-project): The system level packages managed by [pdm](https://pdm.fming.dev), put under `~/.pdm`
+- [Brewfile](/Brewfile): The homebrew bundle file
