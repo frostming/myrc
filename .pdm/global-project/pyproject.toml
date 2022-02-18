@@ -1,0 +1,14 @@
+[project]
+# PEP 621 project metadata
+# See https://www.python.org/dev/peps/pep-0621/
+dependencies = [
+    "pip>=21.0",
+    "pipx>=0.15.6.0",
+    "setuptools>=50.3.2",
+    "ipython>=7.19.0",
+    "naipyext>=0.5.3",
+    "wheel>=0.9"]
+
+
+[tool]
+[tool.pdm]

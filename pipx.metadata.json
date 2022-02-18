@@ -1,0 +1,774 @@
+{
+    "pipx_spec_version": "0.1",
+    "venvs": {
+        "asciinema": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/asciinema/bin/asciinema",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {},
+                    "apps": [
+                        "asciinema"
+                    ],
+                    "apps_of_dependencies": [],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "package": "asciinema",
+                    "package_or_url": "asciinema",
+                    "package_version": "2.1.0",
+                    "pip_args": [],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.2",
+                "python_version": "Python 3.9.5",
+                "venv_args": []
+            }
+        },
+        "black": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/black/bin/black",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/black/bin/black-primer",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/black/bin/blackd",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {},
+                    "apps": [
+                        "black",
+                        "black-primer",
+                        "blackd"
+                    ],
+                    "apps_of_dependencies": [],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "package": "black",
+                    "package_or_url": "black",
+                    "package_version": "22.1.0",
+                    "pip_args": [],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.2",
+                "python_version": "Python 3.9.5",
+                "venv_args": []
+            }
+        },
+        "build": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/build/bin/pyproject-build",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {},
+                    "apps": [
+                        "pyproject-build"
+                    ],
+                    "apps_of_dependencies": [],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "package": "build",
+                    "package_or_url": "build",
+                    "package_version": "0.7.0",
+                    "pip_args": [],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.2",
+                "python_version": "Python 3.10.0",
+                "venv_args": []
+            }
+        },
+        "copier": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/copier/bin/copier",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "dunamai": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/copier/bin/dunamai",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "pygments": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/copier/bin/pygmentize",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "copier"
+                    ],
+                    "apps_of_dependencies": [
+                        "pygmentize",
+                        "dunamai"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "package": "copier",
+                    "package_or_url": "git+https://github.com/copier-org/copier.git@master#egg=copier",
+                    "package_version": "6.0.0a9.post45.dev0+ba745c8",
+                    "pip_args": [],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.2",
+                "python_version": "Python 3.10.1",
+                "venv_args": []
+            }
+        },
+        "flake8": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/flake8/bin/flake8",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "pycodestyle": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/flake8/bin/pycodestyle",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "pyflakes": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/flake8/bin/pyflakes",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "flake8"
+                    ],
+                    "apps_of_dependencies": [
+                        "pycodestyle",
+                        "pyflakes"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "package": "flake8",
+                    "package_or_url": "flake8",
+                    "package_version": "4.0.1",
+                    "pip_args": [],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.2",
+                "python_version": "Python 3.9.5",
+                "venv_args": []
+            }
+        },
+        "httpie": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/httpie/bin/http",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/httpie/bin/httpie",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/httpie/bin/https",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "charset-normalizer": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/httpie/bin/normalizer",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "pygments": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/httpie/bin/pygmentize",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "http",
+                        "httpie",
+                        "https"
+                    ],
+                    "apps_of_dependencies": [
+                        "pygmentize",
+                        "normalizer"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "package": "httpie",
+                    "package_or_url": "httpie",
+                    "package_version": "3.0.2",
+                    "pip_args": [],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.2",
+                "python_version": "Python 3.10.2",
+                "venv_args": []
+            }
+        },
+        "nox": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/nox/bin/nox",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/nox/bin/tox-to-nox",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "argcomplete": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/nox/bin/activate-global-python-argcomplete",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/nox/bin/python-argcomplete-check-easy-install-script",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/nox/bin/python-argcomplete-tcsh",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/nox/bin/register-python-argcomplete",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "virtualenv": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/nox/bin/virtualenv",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "nox",
+                        "tox-to-nox"
+                    ],
+                    "apps_of_dependencies": [
+                        "activate-global-python-argcomplete",
+                        "python-argcomplete-check-easy-install-script",
+                        "python-argcomplete-tcsh",
+                        "register-python-argcomplete",
+                        "virtualenv"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "package": "nox",
+                    "package_or_url": "nox",
+                    "package_version": "2021.10.1",
+                    "pip_args": [],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.2",
+                "python_version": "Python 3.9.5",
+                "venv_args": []
+            }
+        },
+        "pip-audit": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/pip-audit/bin/pip-audit",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "cachecontrol": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/pip-audit/bin/doesitcache",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "charset-normalizer": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/pip-audit/bin/normalizer",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "setuptools": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/pip-audit/bin/easy_install",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/pip-audit/bin/easy_install-3.10",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "pip-audit"
+                    ],
+                    "apps_of_dependencies": [
+                        "doesitcache",
+                        "normalizer",
+                        "easy_install",
+                        "easy_install-3.10"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "package": "pip-audit",
+                    "package_or_url": "pip-audit",
+                    "package_version": "1.1.1",
+                    "pip_args": [],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.2",
+                "python_version": "Python 3.10.1",
+                "venv_args": []
+            }
+        },
+        "poetry": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/poetry/bin/poetry",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "cachecontrol": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/poetry/bin/doesitcache",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "charset-normalizer": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/poetry/bin/normalizer",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "keyring": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/poetry/bin/keyring",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "pkginfo": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/poetry/bin/pkginfo",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "virtualenv": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/poetry/bin/virtualenv",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "poetry"
+                    ],
+                    "apps_of_dependencies": [
+                        "doesitcache",
+                        "normalizer",
+                        "keyring",
+                        "pkginfo",
+                        "virtualenv"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "package": "poetry",
+                    "package_or_url": "poetry",
+                    "package_version": "1.1.13",
+                    "pip_args": [],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.2",
+                "python_version": "Python 3.10.0",
+                "venv_args": []
+            }
+        },
+        "pre-commit": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/pre-commit/bin/pre-commit",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/pre-commit/bin/pre-commit-validate-config",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/pre-commit/bin/pre-commit-validate-manifest",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "identify": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/pre-commit/bin/identify-cli",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "nodeenv": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/pre-commit/bin/nodeenv",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "virtualenv": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/pre-commit/bin/virtualenv",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "pre-commit",
+                        "pre-commit-validate-config",
+                        "pre-commit-validate-manifest"
+                    ],
+                    "apps_of_dependencies": [
+                        "identify-cli",
+                        "nodeenv",
+                        "virtualenv"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "package": "pre-commit",
+                    "package_or_url": "pre-commit",
+                    "package_version": "2.16.0",
+                    "pip_args": [],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.2",
+                "python_version": "Python 3.9.5",
+                "venv_args": []
+            }
+        },
+        "pypiserver": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/pypiserver/bin/pypi-server",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {},
+                    "apps": [
+                        "pypi-server"
+                    ],
+                    "apps_of_dependencies": [],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "package": "pypiserver",
+                    "package_or_url": "pypiserver",
+                    "package_version": "1.4.2",
+                    "pip_args": [],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.2",
+                "python_version": "Python 3.9.5",
+                "venv_args": []
+            }
+        },
+        "termtosvg": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/termtosvg/bin/termtosvg",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {},
+                    "apps": [
+                        "termtosvg"
+                    ],
+                    "apps_of_dependencies": [],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "package": "termtosvg",
+                    "package_or_url": "termtosvg",
+                    "package_version": "1.1.0",
+                    "pip_args": [],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.2",
+                "python_version": "Python 3.9.5",
+                "venv_args": []
+            }
+        },
+        "tox": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/tox/bin/tox",
+                            "__type__": "Path"
+                        },
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/tox/bin/tox-quickstart",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "virtualenv": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/tox/bin/virtualenv",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "tox",
+                        "tox-quickstart"
+                    ],
+                    "apps_of_dependencies": [
+                        "virtualenv"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "package": "tox",
+                    "package_or_url": "tox",
+                    "package_version": "3.24.5",
+                    "pip_args": [],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.2",
+                "python_version": "Python 3.10.1",
+                "venv_args": []
+            }
+        },
+        "twine": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/twine",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "chardet": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/chardetect",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "docutils": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/rst2html.py",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/rst2html4.py",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/rst2html5.py",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/rst2latex.py",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/rst2man.py",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/rst2odt.py",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/rst2odt_prepstyles.py",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/rst2pseudoxml.py",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/rst2s5.py",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/rst2xetex.py",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/rst2xml.py",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/rstpep2html.py",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "keyring": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/keyring",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "pkginfo": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/pkginfo",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "pygments": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/pygmentize",
+                                "__type__": "Path"
+                            }
+                        ],
+                        "tqdm": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/twine/bin/tqdm",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "twine"
+                    ],
+                    "apps_of_dependencies": [
+                        "pkginfo",
+                        "rst2html.py",
+                        "rst2html4.py",
+                        "rst2html5.py",
+                        "rst2latex.py",
+                        "rst2man.py",
+                        "rst2odt.py",
+                        "rst2odt_prepstyles.py",
+                        "rst2pseudoxml.py",
+                        "rst2s5.py",
+                        "rst2xetex.py",
+                        "rst2xml.py",
+                        "rstpep2html.py",
+                        "pygmentize",
+                        "chardetect",
+                        "tqdm",
+                        "keyring"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "package": "twine",
+                    "package_or_url": "twine",
+                    "package_version": "3.7.1",
+                    "pip_args": [],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.2",
+                "python_version": "Python 3.9.5",
+                "venv_args": []
+            }
+        },
+        "yt-dlp": {
+            "metadata": {
+                "injected_packages": {},
+                "main_package": {
+                    "app_paths": [
+                        {
+                            "__Path__": "/Users/fming/.local/pipx/venvs/yt-dlp/bin/yt-dlp",
+                            "__type__": "Path"
+                        }
+                    ],
+                    "app_paths_of_dependencies": {
+                        "mutagen": [
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/yt-dlp/bin/mid3cp",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/yt-dlp/bin/mid3iconv",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/yt-dlp/bin/mid3v2",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/yt-dlp/bin/moggsplit",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/yt-dlp/bin/mutagen-inspect",
+                                "__type__": "Path"
+                            },
+                            {
+                                "__Path__": "/Users/fming/.local/pipx/venvs/yt-dlp/bin/mutagen-pony",
+                                "__type__": "Path"
+                            }
+                        ]
+                    },
+                    "apps": [
+                        "yt-dlp"
+                    ],
+                    "apps_of_dependencies": [
+                        "mid3cp",
+                        "mid3iconv",
+                        "mid3v2",
+                        "moggsplit",
+                        "mutagen-inspect",
+                        "mutagen-pony"
+                    ],
+                    "include_apps": true,
+                    "include_dependencies": false,
+                    "package": "yt-dlp",
+                    "package_or_url": "yt-dlp",
+                    "package_version": "2021.12.1",
+                    "pip_args": [],
+                    "suffix": ""
+                },
+                "pipx_metadata_version": "0.2",
+                "python_version": "Python 3.10.1",
+                "venv_args": []
+            }
+        }
+    }
+}
