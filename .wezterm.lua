@@ -13,6 +13,7 @@ return {
         top = 0,
         bottom = 0,
     },
+    window_background_opacity = 0.85,
     use_ime = true, -- fixed chinese input
     default_cwd = wezterm.home_dir .. 'wkspace/github',
     keys = {
