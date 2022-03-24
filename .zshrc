@@ -1,8 +1,4 @@
 
-
-
-
-
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -13,7 +9,7 @@ fi
 setopt no_nomatch
 # If you come from bash you might have to change your $PATH.
 export GOPATH=/Users/fming/wkspace/go
-export PATH=$HOME/Library/PythonUp/bin:$HOME/Library/PythonUp/cmd:$HOME/.local/bin:${GOPATH//://bin:}/bin:$PATH
+export PATH=$HOME/Library/PythonUp/bin:$HOME/Library/PythonUp/cmd:$HOME/wkspace/flutter/bin:$HOME/.local/bin:${GOPATH//://bin:}/bin:$PATH
 export PATH=$PATH:/opt/homebrew/bin
 
 # Path to your oh-my-zsh installation.
@@ -23,6 +19,7 @@ export ZSH=/Users/fming/.oh-my-zsh
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
+#eval "$(starship init zsh)"
 DEFAULT_USER="fming"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -103,6 +100,8 @@ alias ...="cd ../.."
 alias wk="cd $HOME/wkspace"
 alias pipenv="$HOME/wkspace/github/pipenv/venv/bin/pipenv"
 alias abrew=/opt/homebrew/bin/brew
+export BAT_THEME="Dracula"
+alias cat=bat
 
 #PyEnv settings
 #export PYENV_ROOT="$HOME/.pyenv"
@@ -172,6 +171,19 @@ allproxy() {
 
 unproxy() {
   unset https_proxy http_proxy all_proxy
+}
+
+gt() {
+  cd $HOME/wkspace/github/$1
+}
+
+_gt() {
+  _arguments "1:filename:_files -W $HOME/wkspace/github"
+}
+compdef _gt gt
+
+n() {
+  $HOME/wkspace/logseq/scripts/sync.sh
 }
 
 export GPG_TTY=$(tty)
