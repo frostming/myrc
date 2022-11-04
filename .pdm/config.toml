@@ -1,6 +1,3 @@
-auto_global = true
-check_update = true
-
 [python]
 use_pyenv = false
 use_venv = true
@@ -8,3 +5,7 @@ use_venv = true
 [install]
 parallel = true
 cache = false
+
+[repository.mypypi]
+url = "abc"
+

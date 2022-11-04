@@ -8,7 +8,7 @@ fi
 
 setopt no_nomatch
 # If you come from bash you might have to change your $PATH.
-export GOPATH=/Users/fming/wkspace/go
+export GOPATH=$HOME/wkspace/go
 export PATH=$HOME/Library/PythonUp/bin:$HOME/Library/PythonUp/cmd:$HOME/wkspace/flutter/bin:$HOME/.local/bin:${GOPATH//://bin:}/bin:$PATH
 export PATH=$PATH:/opt/homebrew/bin
 
@@ -63,8 +63,8 @@ DEFAULT_USER="fming"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew node pip npm zsh-syntax-highlighting zsh-autosuggestions)
-fpath+=~/.zfunc
+plugins=(git brew node pip npm zsh-syntax-highlighting zsh-autosuggestions docker)
+fpath+=/opt/homebrew/share/zsh/site-functions
 source $ZSH/oh-my-zsh.sh
 compinit
 # User configuration
@@ -98,7 +98,6 @@ compinit
 alias ..="cd .."
 alias ...="cd ../.."
 alias wk="cd $HOME/wkspace"
-alias pipenv="$HOME/wkspace/github/pipenv/venv/bin/pipenv"
 alias abrew=/opt/homebrew/bin/brew
 export BAT_THEME="Dracula"
 alias cat=bat
@@ -186,13 +185,30 @@ n() {
   $HOME/wkspace/logseq/scripts/sync.sh
 }
 
+up() {
+  abrew update && abrew upgrade && pipx upgrade-all
+}
+
+serve() {
+  python3 -m http.server "$@"
+}
+
 export GPG_TTY=$(tty)
 #export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 #source /usr/local/bin/virtualenvwrapper.sh
 
 export PATH=/opt/homebrew/sbin:$PATH
-export PYTHONPATH='/Users/fming/wkspace/github/pdm/pdm/pep582':$PYTHONPATH
+export PYTHONPATH='/Users/fming/wkspace/github/pdm/src/pdm/pep582':$PYTHONPATH
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+% function xbin() {
+  command="$1"
+  args="${@:2}"
+  if [ -t 0 ]; then
+    curl -X POST "https://xbin.io/${command}" -H "X-Args: ${args}"
+  else
+    curl --data-binary @- "https://xbin.io/${command}" -H "X-Args: ${args}"
+  fi
+}
 
