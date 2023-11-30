@@ -1,0 +1,8 @@
+[user]
+	name = Frost Ming
+	email = me@frostming.com
+	signingkey = /home/frost/.ssh/id_rsa.pub
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
