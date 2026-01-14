@@ -2,6 +2,9 @@
 
 set -exo pipefail
 
+sudo apt update && sudo apt install -y zsh curl git
+sudo chsh -s "$(which zsh)" "$USER"
+
 CURDIR=$(pwd)
 
 ln -sf $CURDIR/.zshrc ~/.zshrc
